@@ -1,0 +1,245 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+header {
+    display: flex;
+    height: 80px;
+    background-color: burlywood;
+}
+
+#burger_menu {
+    height: 40px;
+    width: 40px;
+    margin: 20px;
+}
+
+#line_1 {
+    background-color: peru;
+    height: 8px;
+    width: 40px;
+    border-radius: 3px;
+}
+
+#line_2 {
+    background-color: peru;
+    height: 8px;
+    width: 40px;
+    margin-top: 5px;
+    border-radius: 3px;
+}
+
+#line_3 {
+    background-color: peru;
+    height: 8px;
+    width: 40px;
+    margin-top: 5px;
+    border-radius: 3px;
+}
+
+#landing_page_main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#booking_grid_wrapper {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-rows: 50px 80px 80px 100px;
+    grid-template-areas: 
+    'ft . .'
+    'fb tb tb'
+    'db pb tt'
+    'fs fs sb';
+    height: fit-content;
+    width: 90vw;
+    background-color: burlywood;
+    margin-top: 50px;
+    padding: 5px;
+    row-gap: 5px;
+    column-gap: 5px;
+    border-radius: 10px;
+}
+#flight_type{
+    grid-area: ft;
+    background-color: bisque;
+    border-radius: 10px;
+}
+
+#from_box {
+    grid-area: fb;
+    background-color: bisque;
+    border-radius: 10px;
+}
+
+#to_box {
+    grid-area: tb;
+    background-color: bisque;
+    border-radius: 10px;
+}
+
+#date_box {
+    grid-area: db;
+    background-color: bisque;
+    border-radius: 10px;
+}
+
+#passengers_box {
+    grid-area: pb;
+    background-color: bisque;
+    border-radius: 10px;
+}
+
+#ticket_type_box {
+    grid-area: tt;
+    background-color: bisque;
+    border-radius: 10px;
+}
+
+#flight_settings {
+    grid-area: fs;
+    background-color: bisque;
+    border-radius: 10px;
+}
+
+#search_box {
+    grid-area: sb;
+    background-color: bisque;
+    border-radius: 10px;
+}
+
+#popular_locations {
+    display: flex;
+    height: fit-content;
+    width: 90vw;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+#popular_locations > h2 {
+    text-align: center;
+    width: 80vw;
+    margin: 10px;
+}
+
+#bankok {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    height: 28vw;
+    width: 28vw;
+    border-radius: 10px;
+    background-color: bisque;
+    margin: 1vw
+}
+
+#malaga {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    height: 28vw;
+    width: 28vw;
+    border-radius: 10px;
+    background-color: bisque;
+    margin: 1vw
+}
+
+#aplicente {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    height: 28vw;
+    width: 28vw;
+    border-radius: 10px;
+    background-color: bisque;
+    margin: 1vw
+}
+
+#denpasar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    height: 28vw;
+    width: 28vw;
+    border-radius: 10px;
+    background-color: bisque;
+    margin: 1vw
+}
+
+#nairobi {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    height: 28vw;
+    width: 28vw;
+    border-radius: 10px;
+    background-color: bisque;
+    margin: 1vw
+}
+
+#london {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    height: 28vw;
+    width: 28vw;
+    border-radius: 10px;
+    background-color: bisque;
+    margin: 1vw
+}
+
+#beirut {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    height: 28vw;
+    width: 28vw;
+    border-radius: 10px;
+    background-color: bisque;
+    margin: 1vw
+}
+
+#phuket {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    height: 28vw;
+    width: 28vw;
+    border-radius: 10px;
+    background-color: bisque;
+    margin: 1vw
+}
+
+#lissabon {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    height: 28vw;
+    width: 28vw;
+    border-radius: 10px;
+    background-color: bisque;
+    margin: 1vw
+}
+
+.popular_locations > p {
+    margin-bottom: 25px;
+}
