@@ -118,15 +118,17 @@ header {
 
 #popular_locations {
     display: flex;
+    position: relative;
     height: fit-content;
     width: 90vw;
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
     margin-top: 40px;
+    margin-bottom: 50px;
 }
 
-#popular_locations > h2 {
+#popular_locations h2 {
     text-align: center;
     width: 80vw;
     margin: 10px;
@@ -240,6 +242,34 @@ header {
     margin: 1vw
 }
 
-.popular_locations > p {
+.popular_locations p {
     margin-bottom: 25px;
+}
+
+/* Footer */
+
+footer {
+    background-color: burlywood;
+    padding: 40px;
+}
+
+.social-media-links {
+    display: flex;
+    column-gap: 30px;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.social-media-links__img {
+    height: 60px;
+    width: auto;
+}
+
+.copyright {
+    text-align: center;
+}
+
+.copyright a {
+    color: black;
+    text-decoration: none;
 }
