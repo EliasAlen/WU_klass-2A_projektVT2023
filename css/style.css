@@ -18,6 +18,7 @@ header {
     height: 40px;
     width: 40px;
     margin: 20px;
+    z-index: 2;
 }
 
 #line_1 {
@@ -42,6 +43,70 @@ header {
     margin-top: 5px;
     border-radius: 3px;
 }
+
+.burger_toggle #line_2 {
+    opacity: 0;
+}
+
+.burger_toggle #line_1 {
+    transform: rotate(-45deg) translate(-10px, 8px);
+}
+
+.burger_toggle #line_3 {
+    transform: rotate(45deg) translate(-10px, -8px);
+}
+
+#nav_links {
+    display: flex;
+    flex-direction: column;
+    background-color: bisque;
+    height: 500px;
+    width: 250px;
+    justify-content: space-around;
+    align-items: flex-start;
+    position: absolute;
+    top: -500px;
+    left: 0;
+    border-radius: 20px;
+    transition: all 0.5s;
+    padding-left: 30px;
+    z-index: 2;
+}
+
+.nav_active {
+    transform: translateY(580px);
+}
+
+#nav_links a {
+    color: black;
+    text-decoration: none;
+}
+
+#nav_links h2 {
+    font-size: 2rem;
+
+}
+
+#fog {
+    position: absolute;
+    height: 100;
+    width: 100;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    transition: all 0.5s;
+}
+
+.fog_active {
+    background-color: rgba(0, 0, 0, .5);
+}
+
+.title {
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* index */
 
 #landing_page_main {
     display: flex;
@@ -125,7 +190,6 @@ header {
     align-items: center;
     flex-wrap: wrap;
     margin-top: 40px;
-    margin-bottom: 50px;
 }
 
 #popular_locations h2 {
@@ -246,11 +310,52 @@ header {
     margin-bottom: 25px;
 }
 
+/* reseguider */
+
+#reseguider_description {
+    margin-top: 20px;
+    margin-left: 12.5vw;
+    width: 75vw;
+}
+
+#guider_flex_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    row-gap: 30px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.guider {
+    width: 200px;
+    height: 250px;
+    background-color: bisque;
+    border-radius: 10px;
+}
+
+.guide_img {
+    height: 37.5%;
+    background-color: aqua;
+}
+
+.guide_description {
+    height: 50%;
+    background-color: blue;
+}
+
+.guide_visa_mer {
+    height: 12.5%;
+    background-color: blueviolet;
+}
+
 /* Footer */
 
 footer {
     background-color: burlywood;
     padding: 40px;
+    margin-top: 50px;
 }
 
 .social-media-links {
