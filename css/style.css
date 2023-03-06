@@ -44,6 +44,10 @@ header {
     border-radius: 3px;
 }
 
+.burger_toggle {
+    position: fixed;
+}
+
 .burger_toggle #line_2 {
     opacity: 0;
 }
@@ -60,11 +64,12 @@ header {
     display: flex;
     flex-direction: column;
     background-color: bisque;
+    border: 2px solid burlywood;
     height: 500px;
     width: 250px;
     justify-content: space-around;
     align-items: flex-start;
-    position: absolute;
+    position: fixed;
     top: -500px;
     left: 0;
     border-radius: 20px;
@@ -88,17 +93,18 @@ header {
 }
 
 #fog {
-    position: absolute;
-    height: 100;
-    width: 100;
+    position: fixed;
+    height: 100%;
+    width: 100%;
     top: 0;
     left: 0;
     z-index: 1;
-    transition: all 0.5s;
+    transition: all 0.2s;
 }
 
 .fog_active {
-    background-color: rgba(0, 0, 0, .5);
+    backdrop-filter: blur(5px);
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .title {
@@ -135,49 +141,49 @@ header {
 }
 #flight_type{
     grid-area: ft;
-    background-color: bisque;
+    background-color: white;
     border-radius: 10px;
 }
 
 #from_box {
     grid-area: fb;
-    background-color: bisque;
+    background-color: white;
     border-radius: 10px;
 }
 
 #to_box {
     grid-area: tb;
-    background-color: bisque;
+    background-color: white;
     border-radius: 10px;
 }
 
 #date_box {
     grid-area: db;
-    background-color: bisque;
+    background-color: white;
     border-radius: 10px;
 }
 
 #passengers_box {
     grid-area: pb;
-    background-color: bisque;
+    background-color: white;
     border-radius: 10px;
 }
 
 #ticket_type_box {
     grid-area: tt;
-    background-color: bisque;
+    background-color: white;
     border-radius: 10px;
 }
 
 #flight_settings {
     grid-area: fs;
-    background-color: bisque;
+    background-color: white;
     border-radius: 10px;
 }
 
 #search_box {
     grid-area: sb;
-    background-color: bisque;
+    background-color: rgb(255, 209, 124);
     border-radius: 10px;
 }
 
@@ -331,23 +337,71 @@ header {
 .guider {
     width: 200px;
     height: 250px;
-    background-color: bisque;
-    border-radius: 10px;
 }
 
 .guide_img {
     height: 37.5%;
-    background-color: aqua;
+    background-color: blanchedalmond;
+    border: 1px solid black;
 }
 
 .guide_description {
     height: 50%;
-    background-color: blue;
+    background-color: blanchedalmond;
+    border: 1px solid black;
+    border-top: 0px;
 }
 
 .guide_visa_mer {
     height: 12.5%;
-    background-color: blueviolet;
+    background-color: blanchedalmond;
+    border: 1px solid black;
+    border-top: 0px;
+}
+
+/* Sista Minuten */
+
+#sista_minuten_description {
+    margin-left: 5vw;
+    margin-top: 40px;
+}
+
+#sista_minuten_description p {
+    margin-top: 20px;
+}
+
+
+#sök_sista_min_flex_wrapper {
+    display: flex;
+    justify-content: space-around;
+    row-gap: 15px;
+    flex-direction: column;
+    width: 90vw;
+    margin-top: 20px;
+    margin-left: 5vw;
+}
+
+#sök_sista_min_flex_wrapper h3 {
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+.sista_min_input_fält {
+    height: 50px;
+    width: 100%;
+    background-color: white;
+    border: 3px solid peru;
+}
+
+.sista_min_input_fält p {
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+#sök_knapp {
+    margin-top: 20px;
+    text-align: center;
+    background-color: rgb(255, 209, 124);
 }
 
 /* Footer */
