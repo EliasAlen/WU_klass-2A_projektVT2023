@@ -142,6 +142,7 @@ header {
     column-gap: 5px;
     border-radius: 10px;
 }
+
 #flight_type{
     grid-area: ft;
     background-color: white;
@@ -188,6 +189,23 @@ header {
     grid-area: sb;
     background-color: rgb(255, 209, 124);
     border-radius: 10px;
+}
+
+#latest_searches {
+    margin-top: 30px;
+    display: flex;
+    row-gap: 5px;
+    column-gap: 5px;
+    flex-wrap: wrap;
+    width: 90vw;
+    justify-content: center;
+    align-items: center;
+}
+
+#latest_searches article {
+    height: 50px;
+    width: 29vw;
+    background-color: burlywood;
 }
 
 #popular_locations {
@@ -512,4 +530,35 @@ footer {
         transform: translateY(-1000px);
     }
     
+    #booking_grid_wrapper {
+        width: 60vw;
+        position: absolute;
+        top: 140px;
+        left: 5vw;
+        margin-top: 0;
+    }
+
+    #latest_searches {
+        position: absolute;
+        flex-direction: column;
+        margin-top: 0;
+        top: 140px;
+        right: 5vw;
+        width: 25vw;
+    }
+
+    #latest_searches article {
+        width: 25vw;
+    }
+
+    #popular_locations {
+        display: flex;
+        position: relative;
+        height: fit-content;
+        width: 90vw;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-top: 450px;
+    }
 }
