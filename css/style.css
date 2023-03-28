@@ -4,14 +4,18 @@
     box-sizing: border-box;
 }
 
+p {
+    color: rgb(225, 245, 255);
+}
+
 body {
-    background-color: antiquewhite;
+    background-color: rgb(150, 175, 210);
 }
 
 header {
     display: flex;
     height: 80px;
-    background-color: burlywood;
+    background-color: rgb(60, 60, 80);
 }
 
 #burger_menu {
@@ -22,7 +26,7 @@ header {
 }
 
 #line_1 {
-    background-color: peru;
+    background-color: rgb(30, 30, 40);
     height: 8px;
     width: 40px;
     border-radius: 3px;
@@ -30,7 +34,7 @@ header {
 }
 
 #line_2 {
-    background-color: peru;
+    background-color: rgb(30, 30, 40);
     height: 8px;
     width: 40px;
     margin-top: 5px;
@@ -39,7 +43,7 @@ header {
 }
 
 #line_3 {
-    background-color: peru;
+    background-color: rgb(30, 30, 40);
     height: 8px;
     width: 40px;
     margin-top: 5px;
@@ -66,8 +70,8 @@ header {
 #nav_links {
     display: flex;
     flex-direction: column;
-    background-color: bisque;
-    border: 2px solid burlywood;
+    background-color: rgb(225, 245, 255);
+    border: 2px solid rgb(174, 229, 255);
     height: 500px;
     width: 250px;
     justify-content: space-around;
@@ -135,7 +139,7 @@ header {
     'fs fs sb';
     height: fit-content;
     width: 90vw;
-    background-color: burlywood;
+    background-color: rgb(75, 95, 130);
     margin-top: 50px;
     padding: 5px;
     row-gap: 5px;
@@ -205,7 +209,7 @@ header {
 #latest_searches article {
     height: 50px;
     width: 29vw;
-    background-color: burlywood;
+    background-color: rgb(75, 95, 130);
 }
 
 #popular_locations {
@@ -233,7 +237,7 @@ header {
     height: 28vw;
     width: 28vw;
     border-radius: 10px;
-    background-color: bisque;
+    background-color: rgb(225, 245, 255);
     margin: 1vw
 }
 
@@ -245,7 +249,7 @@ header {
     height: 28vw;
     width: 28vw;
     border-radius: 10px;
-    background-color: bisque;
+    background-color: rgb(225, 245, 255);
     margin: 1vw
 }
 
@@ -257,7 +261,7 @@ header {
     height: 28vw;
     width: 28vw;
     border-radius: 10px;
-    background-color: bisque;
+    background-color: rgb(225, 245, 255);
     margin: 1vw
 }
 
@@ -269,7 +273,7 @@ header {
     height: 28vw;
     width: 28vw;
     border-radius: 10px;
-    background-color: bisque;
+    background-color: rgb(225, 245, 255);
     margin: 1vw
 }
 
@@ -281,7 +285,7 @@ header {
     height: 28vw;
     width: 28vw;
     border-radius: 10px;
-    background-color: bisque;
+    background-color: rgb(225, 245, 255);
     margin: 1vw
 }
 
@@ -293,7 +297,7 @@ header {
     height: 28vw;
     width: 28vw;
     border-radius: 10px;
-    background-color: bisque;
+    background-color: rgb(225, 245, 255);
     margin: 1vw
 }
 
@@ -305,7 +309,7 @@ header {
     height: 28vw;
     width: 28vw;
     border-radius: 10px;
-    background-color: bisque;
+    background-color: rgb(225, 245, 255);
     margin: 1vw
 }
 
@@ -317,7 +321,7 @@ header {
     height: 28vw;
     width: 28vw;
     border-radius: 10px;
-    background-color: bisque;
+    background-color: rgb(225, 245, 255);
     margin: 1vw
 }
 
@@ -329,7 +333,7 @@ header {
     height: 28vw;
     width: 28vw;
     border-radius: 10px;
-    background-color: bisque;
+    background-color: rgb(225, 245, 255);
     margin: 1vw
 }
 
@@ -362,20 +366,20 @@ header {
 
 .guide_img {
     height: 37.5%;
-    background-color: blanchedalmond;
+    background-color: rgb(225, 245, 255);
     border: 1px solid black;
 }
 
 .guide_description {
     height: 50%;
-    background-color: blanchedalmond;
+    background-color: rgb(225, 245, 255);
     border: 1px solid black;
     border-top: 0px;
 }
 
 .guide_visa_mer {
     height: 12.5%;
-    background-color: blanchedalmond;
+    background-color: rgb(225, 245, 255);
     border: 1px solid black;
     border-top: 0px;
 }
@@ -411,7 +415,7 @@ header {
     height: 50px;
     width: 100%;
     background-color: white;
-    border: 3px solid peru;
+    border: 3px solid rgb(30, 30, 40);
 }
 
 .sista_min_input_fält p {
@@ -428,7 +432,7 @@ header {
 /* Om Oss */
 
 #information_text_box {
-    background-color: burlywood;
+    background-color: rgb(75, 95, 130);
     width: 60vw;
     height: fit-content;
     margin-left: 5vw;
@@ -447,7 +451,7 @@ header {
 }
 
 .nav_item {
-    background-color: burlywood;
+    background-color: rgb(75, 95, 130);
     height: 40px;
     margin-bottom: 10px;
     text-align: center;
@@ -456,7 +460,7 @@ header {
 }
 
 #selected {
-    background-color: peru;
+    background-color: rgb(30, 30, 40);
     border-radius: 0px 5px 5px 0px;
 }
 
@@ -464,7 +468,7 @@ header {
 	width: 0;
 	height: 0;
 	
-	border-right: 20px solid peru;
+	border-right: 20px solid rgb(30, 30, 40);
 
 	border-top: 20px solid transparent;
 	border-bottom: 20px solid transparent;
@@ -478,7 +482,7 @@ header {
 /* Footer */
 
 footer {
-    background-color: burlywood;
+    background-color: rgb(60, 60, 80);
     padding: 40px;
     margin-top: 50px;
 }
@@ -500,7 +504,7 @@ footer {
 }
 
 .copyright a {
-    color: black;
+    color: rgb(225, 245, 255);
     text-decoration: none;
 }
 
@@ -521,7 +525,7 @@ footer {
         justify-content: space-around;
         border-radius: 0;
         border: 0px solid black;
-        background-color: burlywood;
+        background-color: rgb(60, 60, 80);
         list-style: none;
         transition: none;
     }
