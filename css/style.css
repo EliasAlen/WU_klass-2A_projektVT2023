@@ -5,19 +5,19 @@
 }
 
 h1 {
-    color: rgb(225, 245, 255);
+    color: white;
 }
 
 h2 {
-    color: rgb(225, 245, 255);
+    color: white;
 }
 
 h3 {
-    color: rgb(225, 245, 255);
+    color: white;
 }
 
 p {
-    color: rgb(225, 245, 255);
+    color: white;
 }
 
 #sök_sista_min_flex_wrapper p {
@@ -35,11 +35,11 @@ p {
 #background_img {
     z-index: -1;
     position: fixed;
-    height: 110vh;
-    width: 110vw;
-    filter: blur(5px) brightness(.4);
-    left: -10px;
-    top: -10px;
+    height: 120vh;
+    width: 120vw;
+    filter: blur(5px) brightness(.3);
+    left: -8vw;
+    top: -8vw;
 }
 
 header {
@@ -178,7 +178,7 @@ header {
     'fs fs sb';
     height: fit-content;
     width: 90vw;
-    background-color: rgb(95, 120, 150);
+    background-color: rgb(95, 95, 135);
     margin-top: 50px;
     padding: 5px;
     row-gap: 5px;
@@ -267,7 +267,7 @@ header {
     display: flex;
     align-items: center;
     font-size: 20px;
-    padding-left: 20px;
+    padding-left: 10px;
 }
 
 #booking_grid_wrapper p {
@@ -285,10 +285,10 @@ header {
     align-items: center;
 }
 
-#latest_searches article {
+#latest_searches p {
     height: 50px;
     width: 29vw;
-    background-color: rgb(95, 120, 150);
+    background-color: rgb(95, 95, 135);
 }
 
 #popular_locations {
@@ -316,62 +316,64 @@ header {
     height: 28vw;
     width: 28vw;
     border-radius: 10px;
-    background-color: rgb(225, 245, 255);
+    background-size: cover;
     margin: 1vw
 }
 
 .location h3 {
-    color: black;
+    color: white;
 }
 
 .location p {
     margin-bottom: 25px;
-    color: black;
+    color: white;
 }
 
 #bankok {
-    
+    background-image: url(../img/popular_locations/bankok.jpg);
 }
 
 #malaga {
-    
+    background-image: url(../img/popular_locations/malaga.jpg);
 }
 
-#aplicente {
-    
+#aplicante {
+    background-image: url(../img/popular_locations/aplicante.jpg);
 }
 
 #denpasar {
-    
+    background-image: url(../img/popular_locations/denpasar.jpg);
 }
 
 #nairobi {
-    
+    background-image: url(../img/popular_locations/nairobi.jpg);
 }
 
 #london {
-    
+    background-image: url(../img/popular_locations/london.jpg);
 }
 
 #beirut {
-    
+    background-image: url(../img/popular_locations/beirut.jpg);
 }
 
 #phuket {
-   
+    background-image: url(../img/popular_locations/phuket.jpg);
 }
 
 #lissabon {
-    
+    background-image: url(../img/popular_locations/lissabon.jpg);
 }
 
 /* reseguider */
 
 #reseguider_description {
     margin-top: 20px;
-    margin-left: 12.5vw;
-    width: 75vw;
-    color: rgb(225, 245, 255);
+    margin-left: 5vw;
+    width: 90vw;
+    color: white;
+    font-size: 10px;
+    text-align: center;
 }
 
 #guider_flex_wrapper {
@@ -385,32 +387,35 @@ header {
 }
 
 .guider {
-    width: 200px;
-    height: 250px;
+    width: 100px;
+    height: 125px;
 }
 
 .guide_img {
     height: 37.5%;
     background-color: rgb(225, 245, 255);
-    border: 3px solid rgb(95, 120, 150);
+    border: 3px solid rgb(95, 95, 135);
     background-size: cover;
 }
 
 .guide_description {
     height: 50%;
     background-color: rgb(225, 245, 255);
-    border: 3px solid rgb(95, 120, 150);
+    border: 3px solid rgb(95, 95, 135);
     border-top: 0px;
 }
 
 .guider h2 {
     margin-left: 5px;
+    padding-top: 5px;
     color: black;
+    font-size: 10px;
 }
 
 .guider p {
     color: black;
     margin-left: 5px;
+    font-size: 6px;
 }
 
 .guide_visa_mer p {
@@ -421,7 +426,7 @@ header {
 .guide_visa_mer {
     height: 12.5%;
     background-color: rgb(155, 210, 235);
-    border: 3px solid rgb(95, 120, 150);
+    border: 3px solid rgb(95, 95, 135);
     border-top: 0px;
 }
 
@@ -516,7 +521,7 @@ header {
     height: 50px;
     width: 100%;
     background-color: white;
-    border: 3px solid rgb(95, 120, 150);
+    border: 3px solid rgb(95, 95, 135);
 }
 
 .sista_min_input_fält p {
@@ -533,7 +538,7 @@ header {
 /* Om Oss */
 
 #information_text_box {
-    background-color: rgb(95, 120, 150);
+    background-color: rgb(95, 95, 135);
     width: 60vw;
     height: fit-content;
     margin-left: 5vw;
@@ -549,6 +554,7 @@ header {
 #information_text_box p {
     margin-top: 20px;
     color: white;
+    font-size: 15px;
 }
 
 #om_oss_nav_menu {
@@ -561,7 +567,7 @@ header {
 }
 
 .nav_item {
-    background-color: rgb(95, 120, 150);
+    background-color: rgb(95, 95, 135);
     height: 40px;
     margin-bottom: 10px;
     text-align: center;
@@ -571,6 +577,7 @@ header {
 
 .nav_item p {
     color: white;
+    font-size: 10px;
 }
 
 #selected {
@@ -592,7 +599,7 @@ header {
 	border-bottom: 20px solid transparent;
 	border-left: 20px solid  transparent;
     position: relative;
-    top: -28px;
+    top: -22px;
     left: -40px;
 }
   
@@ -613,12 +620,13 @@ footer {
 }
 
 .social-media-links__img {
-    height: 60px;
+    height: 40px;
     width: auto;
 }
 
 .copyright {
     text-align: center;
+    color: rgb(225, 245, 255);
 }
 
 .copyright a {
@@ -692,9 +700,29 @@ footer {
         color: rgb(225, 245, 255);
     }
 
+    #reseguider_description {
+        font-size: 15px;
+    }
+
     .guider {
         width: 30vw;
         height: 400px;
+    }
+
+    .guider h2 {
+        font-size: 30px;
+    }
+
+    .guider p {
+        font-size: 20px; 
+    }
+
+    .nav_item p {
+        font-size: 22px;
+    }
+
+    .arrow {
+        top: -34px;
     }
 
     .guide_description {
@@ -704,7 +732,7 @@ footer {
     }
 
     .guide_visa_mer {
-        padding-top: 6px;
+        padding-top: 8px;
         font-size: 23px;
     }
 }

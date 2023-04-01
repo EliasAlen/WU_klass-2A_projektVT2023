@@ -5,8 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Svenska Flyg</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
-<link rel="stylesheet" href="css/style.css">
+
 <body>
     <div id="fog"></div>
     <img src="img/backgorund_img.jpg" alt="bakgrundsbild av ett flygplan" id="background_img">
@@ -29,49 +30,49 @@
 
     <main id="landing_page_main">
         <div id="booking_grid_wrapper" class="booking_option">
-            <section id="flight_type" class="booking_option"><p>Typ av resa</p></section>
-            <section id="from_box" class="booking_option"><p>Från</p></section>
-            <section id="to_box" class="booking_option"><p>Till</p></section>
-            <section id="date_box" class="booking_option"><p>Datum</p></section>
-            <section id="passengers_box" class="booking_option"><p>Antal passagerare</p></section>
-            <section id="ticket_type_box" class="booking_option"><p>Biljett typ</p></section>
-            <section id="flight_settings_flex_wrapper" class="booking_option">
-                <section class="settings">
+            <p id="flight_type" class="booking_option">Typ av resa</p>
+            <p id="from_box" class="booking_option">Från</p>
+            <p id="to_box" class="booking_option">Till</p>
+            <p id="date_box" class="booking_option">Datum</p>
+            <p id="passengers_box" class="booking_option">Antal passagerare</p>
+            <p id="ticket_type_box" class="booking_option">Biljett typ</p>
+            <div id="flight_settings_flex_wrapper" class="booking_option">
+                <div class="settings">
                     <div class="check_box"></div>
                     <p></p>
-                </section>
-                <section class="settings">
+                </div>
+                <div class="settings">
                     <div class="check_box"></div>
                     <p></p>
-                </section>
-                <section class="settings">
+                </div>
+                <div class="settings">
                     <div class="check_box"></div>
                     <p></p>
-                </section>
-                <section class="settings">
+                </div>
+                <div class="settings">
                     <div class="check_box"></div>
                     <p></p>
-                </section>
-                <section class="settings">
+                </div>
+                <div class="settings">
                     <div class="check_box"></div>
                     <p></p>
-                </section>
-                <section class="settings">
+                </div>
+                <div class="settings">
                     <div class="check_box"></div>
                     <p></p>
-                </section>
-            </section>
-            <section id="search_box">Sök</section>
+                </div>
+            </div>
+            <p id="search_box">Sök</p>
         </div>
 
-        <section id="latest_searches">
-            <article></article>
-            <article></article>
-            <article></article>
-            <article></article>
-            <article></article>
-            <article></article>
-        </section>
+        <div id="latest_searches">
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+        </div>
 
         <div id="popular_locations">
             <h2>Våra mest populära sökningar</h2>
@@ -85,8 +86,8 @@
                 <p>Spanien</p>
             </article>
 
-            <article class="location" id="aplicente">
-                <h3>Aplicente</h3>
+            <article class="location" id="aplicante">
+                <h3>Aplicante</h3>
                 <p>Spanien</p>
             </article>
 
@@ -119,12 +120,11 @@
                 <h3>Lissabon</h3>
                 <p>Portugal</p>
             </article>
-
         </div>
     </main>
 
     <footer>
-		<section class="container container--social-media">
+		<div class="container container--social-media">
             <div class="social-media-links social-media-links--small">
                 <img src="img/logos/youtube.png" alt="" class="social-media-links__img">
                 <img src="img/logos/facebook.png" alt="" title="Gilla oss på Facebook!" class="social-media-links__img" loading="lazy">									
@@ -132,8 +132,8 @@
                 <img src="img/logos/twitter.png" alt="" title="Följ oss på Nynewsdesk!" class="social-media-links__img" loading="lazy">														
                 <img src="img/logos/linked_in.png" alt="" title="Följ oss på Tiktok!" class="social-media-links__img" loading="lazy">
             </div>
-		</section>
-		<section class="container container--copyright">
+		</div>
+		<div class="container container--copyright">
 				<p class="copyright">© 2023 Flightmate AB |
 					<a target="_top" class="destinations" href="/">Destinationer</a> |
 					<a target="_top" class="airlines" href="/">Flygbolag</a> |
@@ -141,7 +141,7 @@
 					<a target="_top" class="contact-us" href="/">Om oss</a> |
 					<a target="_top" id="footer-cookies" class="contact-us" href="/">Integritetspolicy</a>
 				</p>
-		</section>	
+            </div>	
 	</footer>
 
     <script src="js/script.js"></script>
