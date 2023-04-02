@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Russo One', sans-serif;
 }
 
 h1 {
@@ -10,6 +13,7 @@ h1 {
 
 h2 {
     color: white;
+    color: rg;
 }
 
 h3 {
@@ -242,6 +246,7 @@ header {
     width: 50%;
     height: 33%;
     align-items: center;
+    font-size: 10px;
 }
 
 .check_box {
@@ -250,6 +255,7 @@ header {
     width: 20px;
     height: 20px;
     margin-left: 8px;
+    margin-right: 5px;
 }
 
 #search_box {
@@ -275,7 +281,7 @@ header {
 }
 
 #latest_searches {
-    margin-top: 30px;
+    margin-top: 10px;
     display: flex;
     row-gap: 5px;
     column-gap: 5px;
@@ -285,10 +291,18 @@ header {
     align-items: center;
 }
 
+#latest_searches h2 {
+    width: 90vw;
+    text-align: center;
+    margin-top: 20px;
+}
+
 #latest_searches p {
     height: 50px;
     width: 29vw;
     background-color: rgb(95, 95, 135);
+    padding-top: 15px;
+    padding-left: 15px;
 }
 
 #popular_locations {
@@ -317,16 +331,26 @@ header {
     width: 28vw;
     border-radius: 10px;
     background-size: cover;
-    margin: 1vw
+    margin: 1vw;
+    text-align: center;
 }
 
 .location h3 {
     color: white;
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 125px;
+    height: 25px;
+    border-radius: 8px 8px 0px 0px;
+    padding-top: 5px;
 }
 
 .location p {
     margin-bottom: 25px;
+    background-color: rgba(0, 0, 0, 0.8);
     color: white;
+    width: 125px;
+    height: 25px;
+    border-radius: 0px 0px 8px 8px;
 }
 
 #bankok {
@@ -573,9 +597,6 @@ header {
     text-align: center;
     padding-top: 10px;
     border-radius: 5px;
-}
-
-.nav_item p {
     color: white;
     font-size: 10px;
 }
@@ -583,23 +604,18 @@ header {
 #selected {
     background-color: rgb(40, 40, 60);
     border-radius: 0px 5px 5px 0px;
-}
-
-#selected p {
     color: rgb(225, 245, 255);
 }
 
 .arrow {
 	width: 0;
 	height: 0;
-	
 	border-right: 20px solid rgb(40, 40, 60);
-
 	border-top: 20px solid transparent;
 	border-bottom: 20px solid transparent;
 	border-left: 20px solid  transparent;
-    position: relative;
-    top: -22px;
+    position: absolute;
+    top: 0px;
     left: -40px;
 }
   
@@ -676,13 +692,22 @@ footer {
         position: absolute;
         flex-direction: column;
         margin-top: 0;
-        top: 140px;
+        top: 110px;
         right: 5vw;
         width: 25vw;
     }
 
-    #latest_searches article {
+    #latest_searches h2 {
         width: 25vw;
+        margin-top: 0px;
+    }
+
+    #latest_searches p {
+        width: 25vw;
+    }
+
+    .settings {
+        font-size: 13px;
     }
 
     #popular_locations {
@@ -717,12 +742,12 @@ footer {
         font-size: 20px; 
     }
 
-    .nav_item p {
+    .nav_item {
         font-size: 22px;
     }
 
     .arrow {
-        top: -34px;
+        top: 0px;
     }
 
     .guide_description {
