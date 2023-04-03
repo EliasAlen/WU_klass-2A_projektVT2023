@@ -10,6 +10,3 @@ function toggleMeny () {
 
 burger.addEventListener('click', toggleMeny)
 
-// if (fog.classList.includes('fog_active')) {
-//     fog.addEventListener('click', toggleMeny)
-// }
