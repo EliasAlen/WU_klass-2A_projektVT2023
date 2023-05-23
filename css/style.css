@@ -13,7 +13,6 @@ h1 {
 
 h2 {
     color: white;
-    color: rg;
 }
 
 h3 {
@@ -576,12 +575,13 @@ header {
 
 #information_text_box h2 {
     color: white;
+    font-size: 21px;
 }
 
 #information_text_box p {
     margin-top: 20px;
     color: white;
-    font-size: 15px;
+    font-size: 13px;
 }
 
 #om_oss_nav_menu {
@@ -774,5 +774,16 @@ footer {
     .guide_visa_mer {
         padding-top: 8px;
         font-size: 23px;
+    }
+
+    #information_text_box h2 {
+        color: white;
+        font-size: 34px;
+    }
+    
+    #information_text_box p {
+        margin-top: 20px;
+        color: white;
+        font-size: 21px;
     }
 }
