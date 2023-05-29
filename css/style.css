@@ -49,6 +49,17 @@ header {
     display: flex;
     height: 80px;
     background-color: rgb(40, 40, 60);
+    align-items: center;
+}
+
+#current_page {
+    background-color: rgba(106, 106, 163, 0.347);
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+h1 {
+    margin-left: 10vw;
 }
 
 #burger_menu {
@@ -397,7 +408,7 @@ header {
     margin-left: 5vw;
     width: 90vw;
     color: white;
-    font-size: 10px;
+    font-size: 14px;
     text-align: center;
 }
 
@@ -412,8 +423,8 @@ header {
 }
 
 .guider {
-    width: 100px;
-    height: 125px;
+    width: 400px;
+    height: 400px;
 }
 
 .guide_img {
@@ -434,13 +445,13 @@ header {
     margin-left: 5px;
     padding-top: 5px;
     color: black;
-    font-size: 10px;
+    font-size: 30px;
 }
 
 .guider p {
     color: black;
     margin-left: 5px;
-    font-size: 6px;
+    font-size: 22px;
 }
 
 .guide_visa_mer p {
@@ -662,10 +673,9 @@ footer {
 
     #nav_links {
         flex-direction: row;
-        width: 100vw;
+        width: 75vw;
         height: 80px;
         transform: translateY(500px);
-        margin-right: 100px;
         align-items: center;
         justify-content: space-around;
         border-radius: 0;
@@ -673,10 +683,20 @@ footer {
         background-color: rgb(40, 40, 60);
         list-style: none;
         transition: none;
+        position: absolute;
+    }
+
+    h1 {
+        position: absolute;
+        right: 30px;
+        font-size: 30px;
+        width: 150px;
+        text-align: center;
     }
 
     #nav_links h2 {
         color: rgb(225, 245, 255);
+        font-size: 25px;
     }
 
     .fog_active {
@@ -768,7 +788,10 @@ footer {
     .guide_description {
         padding-top: 20px;
         padding: 15px;
-        font-size: 23px;
+    }
+
+    .guide_description p {
+        font-size: 15px;
     }
 
     .guide_visa_mer {
