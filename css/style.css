@@ -632,6 +632,17 @@ h1 {
     top: 0px;
     left: -40px;
 }
+
+.hidden_section {
+    display: none;
+}
+
+#om_oss_visa_mer {
+    padding: 4px;
+    border-radius: 3px;
+    background-color: rgb(40, 40, 60, 0.5);
+    width: fit-content;
+}
   
 
 /* Footer */
@@ -808,5 +819,25 @@ footer {
         margin-top: 20px;
         color: white;
         font-size: 21px;
+    }
+
+    .hidden_section {
+        display: block;
+    }
+
+    #om_oss_visa_mer {
+        display: none;
+    }
+
+    #sista_minuten_description {
+        width: 40vw;
+    }
+
+    #sök_sista_min_flex_wrapper {
+        width: 40vw;
+    }
+
+    #sista_minuten_main_flex_wrapper {
+        display: flex;
     }
 }
